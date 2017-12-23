@@ -26,6 +26,7 @@
     "cssnano": "^3.10.0",
     "eslint-html-reporter": "^0.5.2",
     "eslint-plugin-css-modules": "^2.7.5",
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-clean": "^0.3.2",
