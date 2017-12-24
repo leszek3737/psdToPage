@@ -1,0 +1,17 @@
+.services {
+    width: 100%;
+    min-height: 360px;
+    &__items {
+        padding-top: 45px;
+        &--icon {
+            font-size: 3.5rem;
+            padding: 2px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: #ffffff;
+            border-style: solid;
+            max-width: 96px;
+            max-height: 96px;
+        }
+    }
+}
