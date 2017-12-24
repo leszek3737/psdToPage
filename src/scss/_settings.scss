@@ -19,6 +19,8 @@ $primary: $blue;
 //$light: $gray-100;
 $dark: $black;
 
+$jumbotron-bg: rgba(0, 0, 0, 0.5);
+
 $body-bg: $white;
 $body-color: $gray-900;
 
@@ -34,12 +36,14 @@ sans-serif;
 $font-size-base: 1.6rem;
 $font-weight-light: 100;
 
-$h1-font-size: $font-size-base * 2.5;
+$h1-font-size: 6rem;
 $h2-font-size: $font-size-base * 2;
 $h3-font-size: $font-size-base * 1.75;
 $h4-font-size: $font-size-base * 1.5;
 $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base;
+
+$headings-font-family: $font-family-base;
 
 $navbar-dark-color: $white;
 //$navbar-dark-hover-color:           rgba($white,.75) !default;
