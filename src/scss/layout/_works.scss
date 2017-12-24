@@ -1,0 +1,15 @@
+.cards {
+    &__item {
+        width: 370px;
+        height: 370px;
+        &--image {
+            background-color: #cccccc;
+            width: 370px;
+            height: 270px;
+        }
+        &--text {
+            font-size: 1.4rem;
+            color: $gray-500;
+        }
+    }
+}
