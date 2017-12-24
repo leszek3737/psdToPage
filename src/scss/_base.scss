@@ -1,3 +1,27 @@
 html {
     font-size: 62.5%;
 }
+
+.title-white {
+    border-bottom: $white solid 10px;
+    line-height: 60px;
+    width: 370px;
+}
+
+.title-black {
+    border-bottom: $gray-700 solid 10px;
+    line-height: 60px;
+    width: 370px;
+    color: $gray-700;
+    padding-top: 100px;
+}
+
+.bg-gray-200 {
+    background: $gray-200;
+}
+
+.btn-size {
+    width: 90px;
+    height: 35px;
+    text-align: center;
+}
