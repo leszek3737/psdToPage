@@ -1,5 +1,5 @@
 .content__quotation {
-    height: 350px;
+    min-height: 350px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -9,7 +9,8 @@
     }
     &__items {
         &--item {
-            width: 760px;
+            width: 100%;
+            max-width: 760px;
             &--image {
                 border-radius: 50%;
                 background-color: #cccccc;

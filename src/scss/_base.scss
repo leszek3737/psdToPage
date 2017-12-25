@@ -20,6 +20,14 @@ html {
     background: $gray-200;
 }
 
+.text-gray-500 {
+    color: $gray-500;
+}
+
+.text-14px {
+    font-size: 1.4rem;
+}
+
 .btn-size {
     width: 90px;
     height: 35px;
@@ -34,12 +42,11 @@ ol {
         border-style: solid;
         width: 6px;
         height: 6px;
-    }
-
-    & > .dot.active {
-        border-radius: 50%;
-        background-color: #ffffff;
-        width: 10px;
-        height: 10px;
+        &.active {
+            border-radius: 50%;
+            background-color: #ffffff;
+            width: 10px;
+            height: 10px;
+        }
     }
 }
