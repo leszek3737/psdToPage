@@ -1,15 +1,19 @@
 .cards {
     &__item {
-        width: 370px;
-        height: 370px;
+        width: 350px;
+        height: 350px;
         &--image {
             background-color: #cccccc;
-            width: 370px;
-            height: 270px;
+            width: 350px;
+            height: 250px;
         }
         &--text {
             font-size: 1.4rem;
             color: $gray-500;
         }
     }
+}
+
+.content__works {
+    padding-bottom: 140px;
 }
