@@ -25,3 +25,21 @@ html {
     height: 35px;
     text-align: center;
 }
+
+ol {
+    & > .dot {
+        border-radius: 50%;
+        border-width: 2px;
+        border-color: #ffffff;
+        border-style: solid;
+        width: 6px;
+        height: 6px;
+    }
+
+    & > .dot.active {
+        border-radius: 50%;
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+    }
+}

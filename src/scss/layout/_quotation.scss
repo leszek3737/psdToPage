@@ -1,0 +1,21 @@
+.content__quotation {
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotation__carousel {
+    &__dots {
+        transform: translateY(45px);
+    }
+    &__items {
+        &--item {
+            width: 760px;
+            &--image {
+                border-radius: 50%;
+                background-color: #cccccc;
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}
