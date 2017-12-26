@@ -1,0 +1,22 @@
+.content__quotation {
+    min-height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotation__carousel {
+    &__dots {
+        transform: translateY(45px);
+    }
+    &__items {
+        &--item {
+            width: 100%;
+            max-width: 760px;
+            &--image {
+                border-radius: 50%;
+                background-color: $gray-400;
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}

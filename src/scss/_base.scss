@@ -1,1 +1,50 @@
+html {
+    font-size: 62.5%;
+}
 
+.title-black {
+    border-bottom: $gray-700 solid 10px;
+    line-height: 60px;
+    width: 370px;
+    color: $gray-700;
+    padding-top: 100px;
+}
+
+.bg-gray-200 {
+    background: $gray-200;
+}
+
+.bg-gray-900 {
+    background: $gray-900;
+}
+
+.text-gray-500 {
+    color: $gray-500;
+}
+
+.text-14px {
+    font-size: 1.4rem;
+}
+
+.btn-size {
+    width: 90px;
+    height: 35px;
+    text-align: center;
+}
+
+ol {
+    & > .dot {
+        border-radius: 50%;
+        border-width: 2px;
+        border-color: #ffffff;
+        border-style: solid;
+        width: 6px;
+        height: 6px;
+        &.active {
+            border-radius: 50%;
+            background-color: #ffffff;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}

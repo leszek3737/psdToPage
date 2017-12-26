@@ -1,0 +1,35 @@
+.content__team {
+    z-index: 0;
+}
+
+.team {
+    margin-bottom: 140px;
+    &__items {
+        margin-top: 80px;
+        &--img {
+            border-radius: 50%;
+            background-color: $gray-400;
+            width: 170px;
+            height: 170px;
+        }
+        &--icon {
+            border-radius: 50%;
+            background-color: $blue;
+            width: 50px;
+            height: 50px;
+            font-size: 2.4rem;
+            margin-right: 10px;
+            transform: translateX(-15px);
+        }
+        &__content {
+            &--text {
+                color: #363636;
+                font-size: 1.4rem;
+                font-weight: 100;
+                line-height: 22px;
+                text-align: left;
+                max-width: 270px
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.cards {
+    margin: -12px;
+    &__item {
+        //
+        width: 350px;
+        height: 350px;
+        &--image {
+            background-color: #cccccc;
+            width: 350px;
+            height: 250px;
+        }
+    }
+}
+
+.content__works {
+    padding-bottom: 140px;
+}

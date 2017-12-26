@@ -1,1 +1,54 @@
+//VARIABLES BOOTSTRAP
+$blue: #42b8dd;
+$red: #ca3c3c;
+$white: #fff;
+$gray-200: #ebebeb;
+$gray-400: #cccccc;
+$gray-500: #898989;
+$gray-600: #545454;
+$gray-700: #363636;
+$gray-900: #252525;
+$black: #000;
 
+$primary: $blue;
+$dark: $black;
+
+$jumbotron-bg: rgba(0, 0, 0, 0.5);
+
+$body-bg: $white;
+$body-color: $gray-900;
+
+$border-width: 1px;
+$border-color: $gray-200;
+
+$border-radius: 10px;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+
+$font-family-base: "Roboto",
+sans-serif;
+$font-size-base: 1.6rem;
+$font-weight-light: 100;
+
+$h1-font-size: 7.2rem;
+$h2-font-size: 6rem;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: 3.6rem;
+$h5-font-size: 1.8rem;
+$h6-font-size: $font-size-base;
+
+$headings-font-family: $font-family-base;
+
+$navbar-dark-color: $white;
+
+$card-border-radius: 0;
+
+$input-group-addon-color: $black;
+$input-group-addon-bg: $gray-200;
+$input-group-addon-border-color: none;
+
+// Forms
+$input-bg: transparent;
+$input-color: $black;
+$input-border-color: transparent;
+$input-border-radius: 0;
