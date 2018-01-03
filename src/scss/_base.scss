@@ -1,11 +1,13 @@
 html {
-    font-size: 62.5%;
+    font-size: 50%;
+    overflow-x: hidden;
 }
 
 .title-black {
     border-bottom: $gray-700 solid 10px;
     line-height: 60px;
     width: 370px;
+    max-width: 100%;
     color: $gray-700;
     padding-top: 100px;
 }
@@ -46,5 +48,15 @@ ol {
             width: 10px;
             height: 10px;
         }
+    }
+}
+
+.maps{
+    max-width: 90%;
+}
+
+@media screen and (min-width: 425px) {
+    html {
+        font-size: 62.5%;
     }
 }
