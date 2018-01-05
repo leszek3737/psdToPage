@@ -1,6 +1,14 @@
 html {
     font-size: 50%;
     overflow-x: hidden;
+<<<<<<< 0.1.1
+=======
+}
+
+body {
+
+    overflow-x: hidden;
+>>>>>>> Add modal in works & fix problem in size in icon i works &
 }
 
 .title-black {
@@ -51,12 +59,21 @@ ol {
     }
 }
 
+<<<<<<< 0.1.1
 .maps{
     max-width: 90%;
 }
 
+=======
+>>>>>>> Add modal in works & fix problem in size in icon i works &
 @media screen and (min-width: 425px) {
     html {
         font-size: 62.5%;
     }
+<<<<<<< 0.1.1
+=======
+    .maps {
+        max-width: 90%;
+    }
+>>>>>>> Add modal in works & fix problem in size in icon i works &
 }

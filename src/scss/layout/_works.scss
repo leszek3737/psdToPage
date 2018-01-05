@@ -1,17 +1,38 @@
 .cards {
     margin: -12px;
     &__item {
-        //
-        width: 350px;
-        height: 350px;
+        padding: 0;
+        width: 100%;
+        max-width: 35rem;
+        height: 35rem;
+        & > div {
+            width: 300%;
+            max-width: 35rem;
+            height: 35rem;
+        }
         &--image {
+            max-width: 100%;
             background-color: #cccccc;
-            width: 350px;
-            height: 250px;
+            height: 25rem;
+            width: 100%;
         }
     }
 }
 
 .content__works {
     padding-bottom: 140px;
+}
+
+.work__modal {
+    &--close {
+        background: transparent;
+        border: 0;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        & * {
+            color: $white;
+            font-size: 3rem;
+        }
+    }
 }
