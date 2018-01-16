@@ -1,3 +1,5 @@
+$breakpoint-chrome-l: 425px;
+// this breakpoint is from chrome "mobile l"
 //VARIABLES BOOTSTRAP
 $blue: #42b8dd;
 $red: #ca3c3c;
@@ -30,7 +32,7 @@ sans-serif;
 $font-size-base: 1.6rem;
 $font-weight-light: 100;
 
-$h1-font-size: 7.2rem;
+$h1-font-size: 6.5rem;
 $h2-font-size: 6rem;
 $h3-font-size: $font-size-base * 1.75;
 $h4-font-size: 3.6rem;
@@ -52,3 +54,9 @@ $input-bg: transparent;
 $input-color: $black;
 $input-border-color: transparent;
 $input-border-radius: 0;
+
+//Modal
+$modal-inner-padding: 0;
+$modal-content-bg: $gray-200;
+$modal-header-padding: 0;
+$modal-lg: 950px;

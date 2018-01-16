@@ -1,11 +1,14 @@
 html {
-    font-size: 62.5%;
+    font-size: 50%;
 }
+
+
 
 .title-black {
     border-bottom: $gray-700 solid 10px;
     line-height: 60px;
     width: 370px;
+    max-width: 100%;
     color: $gray-700;
     padding-top: 100px;
 }
@@ -33,7 +36,7 @@ html {
 }
 
 ol {
-    & > .dot {
+    > .dot {
         border-radius: 50%;
         border-width: 2px;
         border-color: #ffffff;
@@ -46,5 +49,18 @@ ol {
             width: 10px;
             height: 10px;
         }
+    }
+}
+
+.maps {
+    max-width: 90%;
+}
+
+@media screen and (min-width: $breakpoint-chrome-l) {
+    html {
+        font-size: 62.5%;
+    }
+    .maps {
+        max-width: 90%;
     }
 }

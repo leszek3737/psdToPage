@@ -2,7 +2,7 @@
     &--icon {
         width: 16.66666%
     }
-    & > div {
+    > div {
         min-height: 150px;
     }
 }
@@ -14,14 +14,14 @@
 
 .icons2 {
     min-height: 350px;
-    & * {
+    * {
         width: 230px;
     }
 }
 
 .icons3 {
     min-height: 150px;
-    & > * {
+    > * {
         background-color: rgba(255, 255, 255, 0.3);
         width: 170px;
         height: 95px;
