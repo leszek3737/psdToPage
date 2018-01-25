@@ -8,10 +8,11 @@ gulp.task('build', done => {
         'style',
         'javascript'
     ],
-        'html',
+        'php',
         'copy',
         'browser-sync-reload',
         'lint',
+        "ftp",
         done
     );
 });
@@ -21,7 +22,7 @@ gulp.task('build::prod', done => {
       'style:prod',
       'javascript:prod'
     ],
-        'html:prod',
+        'php:prod',
         'copy::prod',
         done
     );

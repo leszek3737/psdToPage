@@ -3,7 +3,7 @@ module.exports = {
         src: "./src/**/*",
         scss: './src/**/*.scss',
         js: './src/**/*.js',
-        html: './src/**/*.html',
+        php: './src/**/*.php',
         fonts: './src/fonts/**/*',
         fontsLib: './node_modules/bootstrap-sass/assets/fonts/bootstrap/**/*',
         img: './src/img/**/*',
@@ -12,7 +12,7 @@ module.exports = {
         scss: './src/scss/style.scss'
     },
     path: {
-        css: './dist/css/',
+        css: './dist/',
         js: './dist/js/',
         dist: './dist/',
         fonts: './dist/fonts/',
@@ -32,7 +32,7 @@ module.exports = {
         js: "app.js",
         jsMin: "app.min.js",
         jsMinLib: "assets.min.js",
-        css: "app.css",
+        css: "style.css",
         cssMin: "app.min.css",
     }
 };
