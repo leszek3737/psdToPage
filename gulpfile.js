@@ -12,7 +12,6 @@ gulp.task('build', done => {
         'copy',
         'browser-sync-reload',
         'lint',
-        "ftp",
         done
     );
 });
