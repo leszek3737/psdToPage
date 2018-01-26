@@ -10,4 +10,6 @@ if(!defined('psdToHtml_theme_url')) {
 	define('psdToHtml_theme_url', WP_CONTENT_URL.'/themes/'.get_template().'/');
 }
 
+require_once psdToHtml_theme_dir.'libs/posttypes.php';
+
 ?>
