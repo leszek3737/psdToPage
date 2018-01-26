@@ -1,6 +1,7 @@
 module.exports = {
     glob: {
         src: "./src/**/*",
+        dist: "./dist/**/*",
         scss: './src/**/*.scss',
         js: './src/**/*.js',
         php: './src/**/*.php',
@@ -19,6 +20,7 @@ module.exports = {
         fontsLib: './dist/fonts/bootstrap/',
         vector: './dist/img/',
         img: './dist/img/',
+        wp: './../../wordpress/apps/wordpress/htdocs/wp-content/themes/myTherme/'
     },
     concatOrder: {
         js: './src/**/*.js',

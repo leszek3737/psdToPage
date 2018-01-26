@@ -30,4 +30,13 @@ module.exports = gulp => {
             done
         );
     });
+    gulp.task('copyFontsLib', () => {
+        return gulp.src(config.glob.fontsLib)
+            .pipe(gulp.dest(config.path.fontsLib));
+    });
+
+    gulp.task('copyToWp', done => {
+        return gulp.src(config.glob.dist)
+            .pipe(gulp.dest(config.path.wp));
+    });
 }

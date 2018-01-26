@@ -3,14 +3,7 @@ const runSequence = require('run-sequence');
 module.exports = gulp => {
     gulp.task('watch', () => {
         gulp.watch(config.glob.src, [
-        'watch-src',
+        'build',
       ]);
     });
-    gulp.task('watch-src', done => {
-        runSequence(
-            'build',
-            'browser-sync-reload',
-            done
-        );
-    })
 }

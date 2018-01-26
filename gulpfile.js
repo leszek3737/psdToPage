@@ -10,7 +10,7 @@ gulp.task('build', done => {
     ],
         'php',
         'copy',
-        'browser-sync-reload',
+        'copyToWp',
         'lint',
         done
     );
@@ -29,7 +29,6 @@ gulp.task('build::prod', done => {
 gulp.task('default', done => {
     runSequence(
         "build",
-        'browser-sync',
         'watch',
         done
     )
