@@ -14,7 +14,9 @@ function psdToPsd_init_posttypes() {
             'search_items' => 'Szukaj w przepisach',
             'not_found' => 'Nie znaleziono produktu',
             'not_found_in_trash' => 'Nie znaleziono produktu',
-            'parent_item_colon' => ''
+            'parent_item_colon' => '',
+            'archives' => 'psdToHtmlProduct',
+            
         ),
         'public' => true,
             'publicly_queryable' => true,
