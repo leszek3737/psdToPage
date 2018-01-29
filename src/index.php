@@ -122,51 +122,7 @@
                 <?php get_template_part("archive", "2") ?>
             </div>
             <h4 class="text-primary fas fa-plus-circle"></h4>
-            <div class="work__modal">
-                <div class="modal fade newModal1" tabindex="-1" role="dialog" aria-labelledby="newModal1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <div class="modal-title">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./img/okno1.jpeg" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/okno2.jpeg" alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/okno3.jpeg" alt="Third slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                                    </div>
-                                </div>
-                                <button type="button" class="work__modal--close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue ullamcorper mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer consequat mollis justo id congue. Pellentesque bibendum dolor massa, pretium ullamcorper metus pharetra in. Proin id turpis quis justo condimentum cursus eu id quam. Fusce a vulputate dolor. Cras elementum viverra velit sit amet posuere. Sed tempus molestie lectus, vitae ornare velit aliquam at. Sed imperdiet aliquet magna eget tempor. Aliquam sit amet turpis consectetur, luctus neque quis, tincidunt justo. Sed efficitur, leo sit amet tristique ultricies, lorem erat interdum turpis, eu fringilla nibh tortor eu leo. Maecenas faucibus risus mattis dui rhoncus efficitur. Donec vitae tortor aliquam nisl sodales tempor. Duis vitae lacinia tellus. Phasellus eros nibh, imperdiet a maximus nec, rhoncus eu nulla. Aenean a eleifend est. Donec gravida ipsum sit amet tortor rutrum tincidunt. Maecenas sit amet sagittis sapien, ut fermentum nibh. Phasellus at molestie ipsum.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     <div class="content__quotation">
