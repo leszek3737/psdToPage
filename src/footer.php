@@ -5,8 +5,3 @@
         <h4 class="fas fa-angle-up"></h4>
     </a>
 </footer>
-<script src="<?php echo psdToHtml_theme_url ?>js/app.js "></script>
-<script src="<?php echo psdToHtml_theme_url ?>js/assets.min.js "></script>
-</body>
-
-</html>

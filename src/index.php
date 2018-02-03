@@ -292,3 +292,11 @@
     </div>
 </div>
 <?php get_footer(); ?>
+
+<script src="<?php echo psdToHtml_theme_url ?>js/app.js "></script>
+<script src="<?php echo psdToHtml_theme_url ?>js/assets.min.js "></script>
+
+<?php get_template_part("modal", "1") ?>
+</body>
+
+</html>
