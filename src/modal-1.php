@@ -6,11 +6,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="modal-title">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div id="carousel__post--<?php the_ID(); ?>" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carousel__post--<?php the_ID(); ?>" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel__post--<?php the_ID(); ?>" data-slide-to="1"></li>
+                                <li data-target="#carousel__post--<?php the_ID(); ?>" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <?php 
@@ -34,11 +34,11 @@
                                     <?php endif; ?>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carousel__post--<?php the_ID(); ?>" role="button" data-slide="prev">
                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                       <span class="sr-only">Previous</span>
                                     </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carousel__post--<?php the_ID(); ?>" role="button" data-slide="next">
                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                       <span class="sr-only">Next</span>
                                     </a>
